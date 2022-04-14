@@ -4,7 +4,7 @@ export default [
         "postedBy": {"username": "NASA"},
         "tuit": "In 2021, our @NASAPersevere Mars rover landed",
         "likes": 345,
-        "dislikes": 0,
+        "dislikes": 237,
         "handle": "NASA",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/2449px-NASA_logo.svg.png"
     },
