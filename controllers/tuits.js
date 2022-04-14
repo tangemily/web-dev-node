@@ -6,7 +6,7 @@ export default [
         "likes": 345,
         "dislikes": 237,
         "handle": "NASA",
-        "logo": "https://www.nasa.gov/sites/default/files/thumbnails/image/nasa-logo-web-rgb.png"
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/2449px-NASA_logo.svg.png"
     },
     {
         "_id": "234",
@@ -15,6 +15,6 @@ export default [
         "likes": 6785,
         "dislikes": 21,
         "handle": "NASA",
-        "logo": "https://www.nasa.gov/sites/default/files/thumbnails/image/nasa-logo-web-rgb.png"
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/2449px-NASA_logo.svg.png"
     }
 ];
