@@ -15,7 +15,7 @@ const createTuit = (req, res) => {
     newTuit.postedBy.username = "NASA";
     newTuit.logo = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/2449px-NASA_logo.svg.png";
 
-    tuits.push(newTuit);
+    tuits = [newTuit, ...tuits]
     res.json(newTuit);
 }
 const findAllTuits = (req, res) => {
