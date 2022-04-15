@@ -10,10 +10,10 @@ const createTuit = (req, res) => {
     newTuit.retweets = 0;
     newTuit.liked = false;
     newTuit.disliked = false;
-    newTuit.handle = "NASA";
+    newTuit.handle = "Emily";
     newTuit.postedBy = {};
-    newTuit.postedBy.username = "NASA";
-    newTuit.logo = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/2449px-NASA_logo.svg.png";
+    newTuit.postedBy.username = "Emily";
+    newTuit.logo = "https://pbs.twimg.com/media/ETfL-nIWkAI8x7l.jpg";
 
     tuits = [newTuit, ...tuits]
     res.json(newTuit);
